@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export const Skill = ({ index, icon, skill }) => {
 
-    const randomOpacity = Math.random() * 0.4 + 0.8; 
+    const randomScaling = Math.random() * 0.4 + 0.8; 
     const randomRotation = Math.floor(Math.random() * 201) - 100;
 
     return (
@@ -23,7 +23,7 @@ export const Skill = ({ index, icon, skill }) => {
             }}
 
             whileHover={{
-                scale: randomOpacity,
+                scale: randomScaling,
                 rotate: randomRotation
             }}
 
