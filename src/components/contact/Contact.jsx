@@ -51,7 +51,7 @@ export const Contact = () => {
                 initial="hidden"
                 animate={isInView ? "visible" : "hidden"}
             >
-                Reach Out
+                Reach Out.
             </motion.h2>
             <motion.p
                 className="text-[0.95rem] min-[840px]:text-base tracking-wider"
