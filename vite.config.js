@@ -9,5 +9,4 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/InternIntelligence_Portfolio/"
 })
