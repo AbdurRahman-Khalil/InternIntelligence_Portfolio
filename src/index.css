@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import "tailwindcss";
+
+
+:root {
+  font-family: "Red Hat Display", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #242424;
+
+  scroll-behavior: smooth
+}
+
+
+/* reusable things */
+.transitions {
+  @apply transition-all duration-300 ease-out;
+}
+
+.section-styles {
+  @apply xl:container xl:mx-auto px-5 min-[339px]:px-6 min-[380px]:px-8 min-[640px]:px-10 transition-all duration-300 ease-out;
+}
+
+.contact-item {
+  @apply text-base min-[380px]:text-[1.025rem] min-[840px]:text-[1.075rem] tracking-wider flex justify-center items-center gap-2 w-full max-w-fit px-5 py-4 bg-neutral-50/5 hover:bg-neutral-50/2 border-3 border-neutral-100/30 rounded-lg cursor-pointer transition-all duration-300 ease-out;  
+}
+
+
+
+
+
+@layer base {
+  #home {
+    min-height: fit-content;
+    background-image: url("./assets/hero.webp");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: "Montserrat", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
