@@ -39,6 +39,12 @@ export const Experience = () => {
                 expPortionSubHeading={"Peshawar, Pakistan – 2024"}
                 expPortionText1={"Collaborated with a team of 3 to develop EchoRead, a MERN stack-based online book exchange platform, as part of a Final Year Project."}
             />
+            <ExpPortion
+                expPortionHeading={"Frontend Dev Intern"}
+                expPortionSubHeading={"Remote – Feb 2025 – March 2025"}
+                expPortionText1={"Developed a Secure Authentication Web App using React.js and Firebase, implementing robust authentication and authorization features."}
+                expPortionText2={"Built an Animated & Responsive Portfolio Website with React.js, TailwindCSS, and Framer Motion, ensuring a seamless user experience."}
+            />
         </motion.section>
     );
 };

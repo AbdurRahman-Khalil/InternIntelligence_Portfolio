@@ -14,7 +14,7 @@ export const ExpPortion = ({ expPortionHeading, expPortionSubHeading, expPortion
     return (
         <motion.div
             ref={expPortionref}
-            className={`exp-portion ${expPortionHeading === "Personal Projects" && "mb-8"}`}
+            className={`exp-portion ${expPortionHeading === "Frontend Developer Intern" ? "mb-0" : "mb-8"}`}
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
             variants={fadeInUp}
@@ -28,7 +28,7 @@ export const ExpPortion = ({ expPortionHeading, expPortionSubHeading, expPortion
                     {expPortionHeading}
                 </motion.h4>
                 <motion.p
-                    className="text-base min-[840px]:text-[1.03rem] text-neutral-100/55 tracking-wide"
+                    className="text-base min-[840px]:text-[1.03rem] text-neutral-100/55 tracking-wider"
                     variants={fadeInUp}
                 >
                     {expPortionSubHeading}
@@ -39,14 +39,16 @@ export const ExpPortion = ({ expPortionHeading, expPortionSubHeading, expPortion
                 className="text-[0.95rem] min-[840px]:text-base font-light tracking-wider space-y-3"
                 variants={fadeInUp}
             >
+                {expPortionHeading === "Frontend Developer Intern" && (
+                    <motion.p variants={fadeInUp}>
+                        Successfully completed key projects:
+                    </motion.p>
+                )}
                 <motion.p variants={fadeInUp}>
                     <span className="font-medium">1.</span> {expPortionText1}
                 </motion.p>
-                {expPortionHeading === "Personal Projects"
-                    ? <motion.p variants={fadeInUp}>
-                        <span className="font-medium">2.</span> {expPortionText2}
-                    </motion.p>
-                    : <motion.div variants={fadeInUp}>
+                {expPortionHeading === "FYP – EchoRead"
+                    ? <motion.div variants={fadeInUp}>
                         <p variants={fadeInUp}>
                             <span className="font-medium">2.</span> I have implemented the following features in the app: <br />
                         </p>
@@ -66,6 +68,9 @@ export const ExpPortion = ({ expPortionHeading, expPortionSubHeading, expPortion
                             <span className="font-medium">e.</span> Dark/Light mode toggle for enhanced user experience. <br />
                         </p>
                     </motion.div>
+                    : <motion.p variants={fadeInUp}>
+                        <span className="font-medium">2.</span> {expPortionText2}
+                    </motion.p>
                 }
             </motion.div>
         </motion.div>
