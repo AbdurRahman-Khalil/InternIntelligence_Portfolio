@@ -55,15 +55,16 @@ export const About = () => {
                     {/* outlined-a */}
                     {/* <a
                         className="tracking-[0.07em] font-semibold border border-neutral-100 px-5 py-3.5 rounded-2xl transitions"
-                        href="http://flowcv.com/resume/qg1q6kjveo" target="_blank" rel="noopener noreferrer"   
+                        href="https://flowcv.com/resume/qg1q6kjveo" target="_blank" rel="noopener noreferrer"   
                     >
                         My Resume/CV
                     </a> */}
                     <a
                         className="group text-[0.95rem] min-[840px]:text-base text-neutral-800 tracking-wide font-extrabold 
-                        flex items-center gap-1 max-w-fit bg-neutral-50 px-4.5 py-3 rounded-xl transitions"
-                        href="http://flowcv.com/resume/qg1q6kjveo" target="_blank"   
+                            flex items-center gap-1 max-w-fit bg-neutral-50 px-4.5 py-3 rounded-xl transitions"
+                        href="https://flowcv.com/resume/qg1q6kjveo" target="_blank"   
                     >
+
                         <span>My Resume</span>
                         <FiExternalLink size={18} className="group-hover:-translate-y-[0.165rem] group-hover:translate-x-[0.165rem] transitions" />
                     </a>

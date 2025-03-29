@@ -14,7 +14,7 @@ export const ExpPortion = ({ expPortionHeading, expPortionSubHeading, expPortion
     return (
         <motion.div
             ref={expPortionref}
-            className={`exp-portion ${expPortionHeading === "Frontend Developer Intern" ? "mb-0" : "mb-8"}`}
+            className={`exp-portion ${expPortionHeading === "Frontend Dev Intern" ? "mb-0" : "mb-8"}`}
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
             variants={fadeInUp}
@@ -39,7 +39,7 @@ export const ExpPortion = ({ expPortionHeading, expPortionSubHeading, expPortion
                 className="text-[0.95rem] min-[840px]:text-base font-light tracking-wider space-y-3"
                 variants={fadeInUp}
             >
-                {expPortionHeading === "Frontend Developer Intern" && (
+                {expPortionHeading === "Frontend Dev Intern" && (
                     <motion.p variants={fadeInUp}>
                         Successfully completed key projects:
                     </motion.p>
