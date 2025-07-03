@@ -13,8 +13,8 @@ export const projectsData = [
         image: shopflix_img,
         title: "Shopflix",
         description: "An innovative eCommerce platform built with modern tech for a seamless shopping experience.",
-        linkToSite: "https://abdurrahman-khalil.github.io/shopflix/",
-        linkToRepo: "https://github.com/AbdurRahman-Khalil/shopflix",
+        linkToSite: "https://shopflix-d.vercel.app/",
+        linkToRepo: "https://github.com/AbdurRahman-Khalil/shopflix_d",
     },
     {
         id: 2,
