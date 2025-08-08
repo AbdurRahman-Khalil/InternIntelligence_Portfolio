@@ -5,7 +5,7 @@ import cartify_img from "../../assets/projects/cartify.webp";
 import peakify_img from "../../assets/projects/peakify.webp";
 import auto_verse_img from "../../assets/projects/auto_verse.webp";
 import haven_img from "../../assets/projects/haven.webp";
-import studio_pow_img from "../../assets/projects/studio_pow.webp";
+// import studio_pow_img from "../../assets/projects/studio_pow.webp";
 
 
 export const projectsData = [
@@ -65,12 +65,12 @@ export const projectsData = [
         linkToSite: "https://abdurrahman-khalil.github.io/haven/",
         linkToRepo: "https://github.com/AbdurRahman-Khalil/haven",
     },
-    {
-        id: 8,
-        image: studio_pow_img,
-        title: "STUDIO POW",
-        description: "A sleek landing page built with React.js and TailwindCSS to refine my skills in responsive UI and component-based design.",
-        linkToSite: "https://abdurrahman-khalil.github.io/studio_pow/",
-        linkToRepo: "https://github.com/AbdurRahman-Khalil/studio_pow",
-    },
+    // {
+    //     id: 8,
+    //     image: studio_pow_img,
+    //     title: "STUDIO POW",
+    //     description: "A sleek landing page built with React.js and TailwindCSS to refine my skills in responsive UI and component-based design.",
+    //     linkToSite: "https://abdurrahman-khalil.github.io/studio_pow/",
+    //     linkToRepo: "https://github.com/AbdurRahman-Khalil/studio_pow",
+    // },
 ];
