@@ -11,7 +11,7 @@ const navLinks = [
     { destination: "#home", title: "Home" },
     { destination: "#about", title: "About" },
     { destination: "#skills", title: "Skills" },
-    { destination: "#experience", title: "Experience" },
+    { destination: "https://drive.google.com/file/d/1tPVmQ72du3iDKv7W_ROI9ytwfcXnrhVR/view?usp=drive_link", title: "Experience" },
     { destination: "#projects", title: "Projects" },
     { destination: "#contact", title: "Contact" },
 ];

@@ -2,7 +2,7 @@ import { Navbar } from "./components/navbar/Navbar";
 import { Hero } from "./components/hero/Hero";
 import { About } from "./components/about/About";
 import { Skills } from "./components/skills/Skills";
-import { Experience } from "./components/experience/Experience";
+// import { Experience } from "./components/experience/Experience";
 import { Projects } from "./components/projects/Projects";
 import { Contact } from "./components/contact/Contact";
 import { Footer } from "./components/footer/Footer";
@@ -21,7 +21,7 @@ export const App = () => {
         <Hero />
         <About />
         <Skills />
-        <Experience />
+        {/* <Experience /> */}
         <Projects />
         <Contact />
       </main>
