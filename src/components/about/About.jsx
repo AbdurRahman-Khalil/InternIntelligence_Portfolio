@@ -2,7 +2,7 @@ import { useRef } from "react";
 
 import { motion, useInView } from "framer-motion";
 
-import myImg from "../../assets/me.webp";
+import myImg from "../../assets/me1.jpg";
 
 import { FiExternalLink } from "react-icons/fi";
 
