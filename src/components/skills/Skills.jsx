@@ -53,7 +53,7 @@ export const Skills = () => {
                 Skills.
             </motion.h2>
             <motion.p
-                className="text-[0.95rem] min-[840px]:text-base tracking-wider"
+                className="tracking-wider"
                 variants={fadeInUp}
             >
                 A showcase of programming languages, tools, and technologies learned.

@@ -36,7 +36,7 @@ export const ExpPortion = ({ expPortionHeading, expPortionSubHeading, expPortion
             </motion.div>
 
             <motion.div
-                className="text-[0.95rem] min-[840px]:text-base font-light tracking-wider space-y-3"
+                className="font-light tracking-wider space-y-3"
                 variants={fadeInUp}
             >
                 {expPortionHeading === "Frontend Dev Intern" && (

@@ -31,7 +31,7 @@ export const Projects = () => {
                 Projects.
             </motion.h2>
             <motion.p
-                className="text-[0.95rem] min-[840px]:text-base tracking-wider"
+                className="tracking-wider"
                 variants={fadeInUp}
             >
                 Innovative solutions crafted with the latest tech.

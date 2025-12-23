@@ -53,7 +53,7 @@ export const Contact = () => {
                 Reach Out.
             </motion.h2>
             <motion.p
-                className="text-[0.95rem] min-[840px]:text-base tracking-wider"
+                className="tracking-wider"
                 variants={textVariants}
                 initial="hidden"
                 animate={isInView ? "visible" : "hidden"}

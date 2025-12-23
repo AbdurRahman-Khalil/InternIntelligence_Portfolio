@@ -28,7 +28,7 @@ export const About = () => {
             >
                 <motion.img
                     src={myImg}
-                    className="w-full md:max-w-[25em] object-cover aspect-square rounded-4xl transitions"
+                    className="w-full md:w-[25em] object-cover aspect-square rounded-4xl transitions"
                     alt="my_image"
                     variants={{
                         hidden: { scale: 0.6, opacity: 0 },
@@ -45,11 +45,11 @@ export const About = () => {
                     <h2 className="text-[3.15rem] min-[339px]:text-[3.3rem] min-[380px]:text-[3.5rem] min-[840px]:text-6xl leading-13 min-[840px]:leading-15 font-medium mb-6 transitions">
                         About Me.
                     </h2>
-                    <p className="text-[0.95rem] min-[840px]:text-base tracking-wider mb-7 transitions">
-                        I'm a Website Developer with 1.5 years of experience building dynamic, responsive, and high-performance web
+                    <p className="tracking-wider mb-7 transitions">
+                        I'm a Web Developer with 1.5 years of experience building dynamic, responsive, and high-performance web
                         applications. Proficient in React.js, TailwindCSS, Framer Motion, and Zustand, with a strong focus on
                         creating smooth, intuitive UI/UX. Experienced in developing multiple personal projects to strengthen
-                        practical skills, follow best practices, and stay current with modern website technologies. Passionate about
+                        practical skills, follow best practices, and stay current with modern web technologies and trends. Passionate about
                         delivering user-centric, scalable, and maintainable solutions.
                     </p>
                     {/* outlined-a */}
