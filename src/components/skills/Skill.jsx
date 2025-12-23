@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 export const Skill = ({ index, icon, skill }) => {
 
     const randomScaling = Math.random() * 0.4 + 0.8; 
-    const randomRotation = Math.floor(Math.random() * 201) - 100;
+    const randomRotation = Math.floor(Math.random() * 71) - 36;
 
     return (
-        <motion.div className="flex items-center gap-1.5 px-4 py-3.5 pb-4 rounded-2xl border-2 border-neutral-100/30 bg-neutral-50/5 backdrop-blur cursor-pointer hover:cursor-grab active:cursor-grabbing"
+        <motion.div className="flex items-center gap-1.5 px-4 py-3.5 rounded-2xl border-2 border-neutral-100/30 bg-neutral-50/5 backdrop-blur cursor-pointer hover:cursor-grab active:cursor-grabbing"
             initial={{
                 opacity: 0,
                 y: 35,

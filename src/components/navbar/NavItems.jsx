@@ -11,7 +11,7 @@ const navLinks = [
     { destination: "#home", title: "Home" },
     { destination: "#about", title: "About" },
     { destination: "#skills", title: "Skills" },
-    { destination: "https://drive.google.com/file/d/1tPVmQ72du3iDKv7W_ROI9ytwfcXnrhVR/view?usp=drive_link", title: "Experience" },
+    // { destination: "https://drive.google.com/file/d/1tPVmQ72du3iDKv7W_ROI9ytwfcXnrhVR/view?usp=drive_link", title: "Experience" },
     { destination: "#projects", title: "Projects" },
     { destination: "#contact", title: "Contact" },
 ];
@@ -70,10 +70,10 @@ export const NavItems = ({ menuOpen, setMenuOpen }) => {
             ref={menuRef}
             className={`fixed ${menuOpen ? "right-0 opacity-100" : "-right-full opacity-0"} top-0 z-40 bg-neutral-800/95 border-l border-neutral-100/15 w-fit min-h-[100dvh] flex flex-col justify-center items-end gap-11 pl-18 pr-14 
             transition-all duration-700 ease-initial
-            lg:static lg:bg-transparent lg:flex-row lg:items-center lg:justify-end lg:gap-10 lg:p-0 lg:min-h-fit lg:opacity-100`}
+            min-[850px]:static min-[850px]:bg-transparent min-[850px]:flex-row min-[850px]:items-center min-[850px]:justify-end min-[850px]:gap-10 min-[850px]:p-0 min-[850px]:min-h-fit min-[850px]:opacity-100`}
         >
             <button
-                className="lg:hidden rounded-lg mb-8 cursor-pointer transitions"
+                className="min-[850px]:hidden rounded-lg mb-8 cursor-pointer transitions"
                 onClick={() => setMenuOpen(false)}
             >
                 <IoClose size={35} />

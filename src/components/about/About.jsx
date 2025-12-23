@@ -2,9 +2,9 @@ import { useRef } from "react";
 
 import { motion, useInView } from "framer-motion";
 
-import myImg from "../../assets/me1.jpg";
+import { Button } from "../common/Button";
 
-import { FiExternalLink } from "react-icons/fi";
+import myImg from "../../assets/me1.jpg";
 
 
 
@@ -16,10 +16,10 @@ export const About = () => {
         <section
             id="about"
             ref={aboutRef}
-            className="section-styles pt-24" 
+            className="section-styles pt-24"
         >
             <motion.div
-                className="flex flex-col-reverse min-[827px]:flex-row justify-between items-start min-[883px]:items-center gap-14 min-[827px]:gap-6.5 min-[846px]:gap-8 min-[900px]:gap-10 transitions"
+                className="flex flex-col-reverse lg:flex-row justify-between items-start lg:items-center gap-13 transitions"
                 initial="hidden"
                 animate={isInView ? "visible" : "hidden"}
                 variants={{
@@ -28,7 +28,7 @@ export const About = () => {
             >
                 <motion.img
                     src={myImg}
-                    className="w-full max-w-[23em] min-[840px]:max-w-[25em] object-cover aspect-square rounded-4xl transitions"
+                    className="w-full md:max-w-[25em] object-cover aspect-square rounded-4xl transitions"
                     alt="my_image"
                     variants={{
                         hidden: { scale: 0.6, opacity: 0 },
@@ -42,15 +42,15 @@ export const About = () => {
                         visible: { x: 0, opacity: 1, transition: { duration: 1, ease: [0.33, 1, 0.68, 1], delay: 1 } },
                     }}
                 >
-                    <h2 className="text-[3.15rem] min-[339px]:text-[3.3rem] min-[380px]:text-[3.5rem] min-[840px]:text-6xl leading-13 min-[840px]:leading-15 font-medium mb-3 transitions">
+                    <h2 className="text-[3.15rem] min-[339px]:text-[3.3rem] min-[380px]:text-[3.5rem] min-[840px]:text-6xl leading-13 min-[840px]:leading-15 font-medium mb-6 transitions">
                         About Me.
                     </h2>
                     <p className="text-[0.95rem] min-[840px]:text-base tracking-wider mb-7 transitions">
-                        I'm a Web Developer with 1.5 year of experience in building dynamic, responsive web apps
-                        using React.js and TailwindCSS. Skilled in UI/UX, high-performance landing pages,
-                        and state management with Zustand & Jotai. Passionate about learning new
-                        technologies and solving real-world problems. Developed EchoRead, a full-stack
-                        MERN app, showcasing expertise in front-end & back-end development.
+                        I'm a Website Developer with 1.5 years of experience building dynamic, responsive, and high-performance web
+                        applications. Proficient in React.js, TailwindCSS, Framer Motion, and Zustand, with a strong focus on
+                        creating smooth, intuitive UI/UX. Experienced in developing multiple personal projects to strengthen
+                        practical skills, follow best practices, and stay current with modern website technologies. Passionate about
+                        delivering user-centric, scalable, and maintainable solutions.
                     </p>
                     {/* outlined-a */}
                     {/* <a
@@ -61,16 +61,7 @@ export const About = () => {
                     >
                         My Resume
                     </a> */}
-                    <a
-                        className="group text-[0.95rem] min-[840px]:text-base text-neutral-800 tracking-wide font-extrabold 
-                            flex items-center gap-1.5 max-w-fit bg-neutral-50 px-4.5 py-3 rounded-xl transitions"
-                        href="https://drive.google.com/file/d/1tPVmQ72du3iDKv7W_ROI9ytwfcXnrhVR/view?usp=drive_link" 
-                        target="_blank"   
-                    >
-
-                        <span>My Resume</span>
-                        <FiExternalLink size={18} className="group-hover:-translate-y-[0.165rem] group-hover:translate-x-[0.165rem] transitions" />
-                    </a>
+                    <Button />
                 </motion.div>
             </motion.div>
         </section>

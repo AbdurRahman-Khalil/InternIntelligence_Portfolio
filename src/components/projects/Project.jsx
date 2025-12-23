@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import { Link } from "./Link";
+import { ExtLink } from "./ExtLink";
 
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
@@ -11,7 +11,7 @@ export const Project = ({ index, image, title, description, linkToSite, linkToRe
     return (
         <motion.div
             id="project"
-            className="space-y-1.5 p-1.5 pb-2 hover:bg-neutral-50/5 border-2 border-neutral-100/30 rounded-2xl cursor-pointer transitions"
+            className="space-y-1.5 p-1.5 pb-2 bg-neutral-50/5 hover:bg-neutral-50/2 border-2 border-neutral-100/30 rounded-2xl cursor-pointer transitions"
             initial={{
                 opacity: 0,
                 y: 40
@@ -42,11 +42,11 @@ export const Project = ({ index, image, title, description, linkToSite, linkToRe
                     </p>
                 </div>
                 <div className="flex items-center gap-2.5">
-                    <Link
+                    <ExtLink
                         linkDestination={linkToSite}
                         linkText={<FiExternalLink />}
                     />
-                    <Link
+                    <ExtLink
                         linkDestination={linkToRepo}
                         linkText={<FaGithub />}
                     />

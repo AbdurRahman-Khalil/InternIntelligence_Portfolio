@@ -5,6 +5,8 @@ import cartify_img from "../../assets/projects/cartify.webp";
 import peakify_img from "../../assets/projects/peakify.webp";
 import auto_verse_img from "../../assets/projects/auto_verse.webp";
 import haven_img from "../../assets/projects/haven.webp";
+import id_card_generator_img from "../../assets/projects/id_card_generator.png";
+import mern_todo_app_img from "../../assets/projects/mern_todo_app.png";
 // import studio_pow_img from "../../assets/projects/studio_pow.webp";
 
 
@@ -65,6 +67,23 @@ export const projectsData = [
         linkToSite: "https://abdurrahman-khalil.github.io/haven/",
         linkToRepo: "https://github.com/AbdurRahman-Khalil/haven",
     },
+    {
+        id: 8,
+        image: id_card_generator_img,
+        title: "ID Card Generator",
+        description: "A Web Application that generates student ID card in real time using JavaScript.",
+        linkToSite: "https://id-card-generator-nu.vercel.app/",
+        linkToRepo: "https://github.com/AbdurRahman-Khalil/student_id_card_generator",
+    },
+    {
+        id: 9,
+        image: mern_todo_app_img,
+        title: "MERN Todo App",
+        description: "A practical Todo application built with the MERN stack to practice full-stack development.",
+        linkToSite: "https://github.com/AbdurRahman-Khalil/todo",
+        linkToRepo: "https://github.com/AbdurRahman-Khalil/todo",
+    },
+
     // {
     //     id: 8,
     //     image: studio_pow_img,

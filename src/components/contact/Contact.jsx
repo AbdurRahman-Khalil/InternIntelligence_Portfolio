@@ -89,7 +89,7 @@ export const Contact = () => {
                 </motion.a>
                 <motion.a
                     className="contact-item"
-                    href="https://www.linkedin.com/in/abdur-rehman-a82882281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    href="https://www.linkedin.com/in/abdurrehman16"
                     variants={itemVariants}
                 >
                     <FaLinkedin className="text-[1.25rem] min-[380px]:text-[1.3rem] min-[840px]:text-[1.35rem]" /> <span>Linkedin</span>

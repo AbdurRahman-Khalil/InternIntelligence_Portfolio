@@ -6,7 +6,7 @@ import { SiUpwork, SiGmail } from "react-icons/si";
 
 const socialLinks = [
     { href: "https://github.com/AbdurRahman-Khalil", icon: <FaGithub /> },
-    { href: "https://www.linkedin.com/in/abdur-rehman-a82882281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", icon: <FaLinkedin /> },
+    { href: "https://www.linkedin.com/in/abdurrehman16", icon: <FaLinkedin /> },
     { href: "mailto:m.abdurrahmankhalil2@gmail.com", icon: <SiGmail /> },
     { href: "https://www.upwork.com/freelancers/~018e00a1fc2a67328d?mp_source=share", icon: <SiUpwork /> }
 ];

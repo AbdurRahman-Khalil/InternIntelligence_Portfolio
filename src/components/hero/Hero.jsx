@@ -9,7 +9,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const socialLinks = [
     { href: "https://github.com/AbdurRahman-Khalil", icon: <FaGithub /> },
-    { href: "https://www.linkedin.com/in/abdur-rehman-a82882281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", icon: <FaLinkedin /> },
+    { href: "https://www.linkedin.com/in/abdurrehman16", icon: <FaLinkedin /> },
     { href: "mailto:m.abdurrahmankhalil2@gmail.com", icon: <SiGmail /> },
     { href: "https://www.upwork.com/freelancers/~018e00a1fc2a67328d?mp_source=share", icon: <SiUpwork /> }
 ];
@@ -39,7 +39,7 @@ export const Hero = () => {
                         I'm Abdur Rehman
                     </h3>
                     <h1 className="text-[3.15rem] min-[339px]:text-[3.3rem] min-[380px]:text-[3.5rem] min-[834px]:text-6xl font-semibold leading-15 min-[380px]:leading-16 min-[480px]:leading-17 min-[834px]:leading-18 transitions">
-                        Frontend Web Developer.
+                        Creative Website Developer.
                     </h1>
                     <motion.div
                         className="social-links flex items-center gap-6 mt-5 ml-[0.18em] transitions"

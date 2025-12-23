@@ -36,7 +36,7 @@ export const Navbar = () => {
             <NavItems menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
             <button
-                className="lg:hidden rounded-lg cursor-pointer transitions"
+                className="min-[850px]:hidden rounded-lg cursor-pointer transitions"
                 onClick={() => setMenuOpen(true)}
             >
                 <CgMenuRight size={32} />
